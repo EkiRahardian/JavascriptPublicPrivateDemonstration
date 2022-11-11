@@ -55,6 +55,3 @@ test.runPrivateFunction(); // Console log 'this function is private'
 test.publicFunction(); // Console log 'this function is public and redefinable'
 test.publicFunction = function() {console.log("this function will be redefined");};
 test.publicFunction(); // Console log 'this function will be redefined'
-
-//Note: Private functions\variables can be redefined by defining public functions to redefine private functions\variables.
-// Only declare private final functions\variables if you don't want the private functions\variables to be redefined by public functions
