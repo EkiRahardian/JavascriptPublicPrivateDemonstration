@@ -31,7 +31,7 @@ class demonstration {
 	}
 }
 
-const test = new demonstration(11); // Create instance of class demonstration
+const test = new demonstration(11); // Create instance test of class demonstration
 
 test.#privateVar; // Error
 test.getPrivateVar(); // #privateVar is 11
